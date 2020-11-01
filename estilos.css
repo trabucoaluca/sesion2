@@ -1,16 +1,52 @@
 .header{
-    background-color: magenta;
+    padding: 10px;
+}
+
+.navbar{
     text-align: center;
-    align-items: center;
-    box-sizing: border-box;
+    padding: 10px;
 }
 
-.navbar {
-    background-color: #ffff00;
+.navbar > *{
     display: inline-block;
-    margin: 20px;
+    vertical-align: middle;
+    margin: 0 20px;
 }
 
+.navegacion{
+    padding: 10px;
+}
+.navegacion ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
 .navegacion ul li{
-    display: inline-block;
+    display: inline;
+    padding: 0 10px;
+}
+
+.navegacion ul li a{
+    text-decoration: none;
+    color: #025157;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.actions{
+    color: #025157;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.actions button{
+    color: white;
+    background-color:  #025157;
+    padding: 10px;
+    margin-left: 20px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
