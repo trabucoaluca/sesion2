@@ -5,6 +5,7 @@
 .navbar{
     text-align: center;
     padding: 10px;
+    height: 45px;
 }
 
 .navbar > *{
@@ -24,29 +25,30 @@
 }
 .navegacion ul li{
     display: inline;
-    padding: 0 10px;
+    padding: 0 25px;
 }
 
 .navegacion ul li a{
     text-decoration: none;
     color: #025157;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
-.actions{
-    color: #025157;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+.actions a{
+    color: #67b54b;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 0 10px;
 }
 
 .actions button{
     color: white;
-    background-color:  #025157;
-    padding: 10px;
-    margin-left: 20px;
+    background-color:  #67b54b;
+    padding: 12px 14px;
+    margin: 0 10px;
     border: 0;
     border-radius: 5px;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-family: sans-serif;
 }
